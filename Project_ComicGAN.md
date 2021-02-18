@@ -1,3 +1,9 @@
+---
+layout: page
+title: Bachelor's Project
+---
+
+
 # Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks
 
 ## Responsible Professor:
