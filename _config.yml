@@ -13,12 +13,12 @@ author: Lydia Y. Chen
 
 navbar-links:
   Msc-Thesis: "masterintern"
+  Bsc-Project: "Project_ComicGAN"
   People: "people"
   Publication: "publication"
   Research: "research"
   Join: "join"
-  Project: "Project_ComicGAN"
-  #Author's home: "https://lydiaychen.com"
+    #Author's home: "https://lydiaychen.com"
 
 # --- Logo --- #
 
