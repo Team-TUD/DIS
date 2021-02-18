@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: BSc. Project
+title: BSc Project
 ---
 
 # Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks
