@@ -4,9 +4,9 @@ title: BSc Project
 ---
 
 # Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks
-
+<br /><br />
 ## Responsible Professor: Lydia Y. Chen
-
+<br /><br />
 ## Introduction
 
 [PhD Comics](!http://phdcomics.com) is a newspaper and webcomic strip written and drawn by Jorge Cham that follows the
