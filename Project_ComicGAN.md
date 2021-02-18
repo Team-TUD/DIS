@@ -15,7 +15,7 @@ lives of several grad students. First published in 1997 when Cham was a grad stu
 Stanford University, the strip deals with issues of life in graduate school, including the difficulties of
 scientific research, the perils of procrastination, and the complex student - supervisor relationship.
 
-<img style="float:left" src="https://github.com/Team-TUD/DIS/blob/master/images/phd021717s.png?raw=true" title="PhD Comics" width="100" height="150" alt="centered image"/>
+<img src="https://github.com/Team-TUD/DIS/blob/master/images/phd021717s.png?raw=true" title="PhD Comics"/>
 Figure 1: An example from PhD Comics
 
 Specific problem scenario: We know that drawing illustrations is a time-consuming and ex-
