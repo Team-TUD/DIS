@@ -6,6 +6,7 @@ title: BSc Project
 ## Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks
 ### Responsible Professor: Lydia Y. Chen
 
+</br>
 
 ## Introduction
 
