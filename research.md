@@ -6,7 +6,7 @@ title: Research
 <a name="top"></a> 
 
 
-Our research themes spam in the following areas. 
+Our research themes span in the following areas. 
 
 - [Robust, private, fair learning](#RPFlearning)
 - [Resourcement managment for deep neural networks clusters](#resource)
