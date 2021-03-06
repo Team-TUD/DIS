@@ -3,8 +3,8 @@
 
 We offer the following research projects for bachelor students- 
 
-- [Robust, private, fair learning](#ComicGAN)
-- [Resourcement managment for deep neural networks clusters](#TimeSeries)
+- [Comics Illustration Synthesizer using Generative Adversarial Networks](#ComicGAN)
+- [Time Series Synthesis using Generative Adversarial Networks](#TimeSeries)
 
 
 ## Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks <a name="ComicGAN"></a> 
