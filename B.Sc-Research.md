@@ -178,8 +178,7 @@ master student who will provide the baseline system.
 
 ## Project Title: Time Series Synthesis using Generative Adversarial Networks <a name="TimeSeries"></a> 
 
-### Responsible Professor:
-Lydia Y. Chen
+### Responsible Professor: Lydia Y. Chen
 
 <pre>
 
