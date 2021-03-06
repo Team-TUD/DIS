@@ -3,7 +3,16 @@ layout: page
 title: BSc Project
 ---
 
-## Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks
+{::options parse_block_html="true" /}
+<a name="top"></a>
+
+Our research subjects for the Bachelor's project lie in the following directions. 
+
+- [Comics Illustration Synthesizer using Generative Adversarial Networks](#ComicGAN)
+- [Time Series Synthesis using Generative Adversarial Networks](#TimeSeries)
+
+
+## Project Title: Comics Illustration Synthesizer using Generative Adversarial Networks <a name="ComicGAN"></a> 
 ### Responsible Professor: Lydia Y. Chen
 
 <pre>
@@ -171,6 +180,86 @@ be a stand-alone workshop paper, and the combination of them can form a conferen
 machine learning application track. This project will be in collaboration with a PhD student and
 master student who will provide the baseline system.
 
+
+## Project Title: Time Series Synthesis using Generative Adversarial Networks <a name="TimeSeries"></a> 
+
+### Responsible Professor:
+Lydia Y. Chen
+
+<pre>
+
+</pre>
+
+## Introduction
+
+'Data is the new oil' is a quote that goes back to 2006, which is credited to mathematician Clive Humby. It has recently picked up more steam after The Economist published a 2017 report[13] titled 'The world's most valuable resource is no longer oil, but data'. Many companies nowadays discover valuable business insights from various internal and external data sources. However, the big knowledge behind big data often impedes personal privacy and leads to unjustified analysis[14].  To prevent the abuse of data and the risks of privacy breaching, the European Commission introduced the European General Data Protection Regulation (GDPR)  and enforced strict data protection measures. This however instils a new challenge in the data-driven industries to look for new scientific solutions that can empower big discovery while respecting the constraints of data privacy and governmental regulation.  
+
+<img src="https://github.com/Team-TUD/DIS/blob/master/images/synthetic_data_image_1.png?raw=true" title="Synthetic Data"/>
+Figure 1: The synthetic data retains the structure of the original data but is not the same [11].
+
+An emerging solution is to leverage synthetic data, which statistically resembles real data and can comply with GDPR due to its synthetic nature. The industrial datasets (at stakeholders like banks, insurance companies, and health care) present multi-fold challenges. Generative Adversarial Network (GAN)[8] is one of the emerging data synthesizing methodologies. The GAN is first trained on a real dataset. Then used to generate data. Beyond its success in generating images, GAN has recently been applied to generate time series[10,12], and this is also our target for this project.
+
+This project will be split into 5 parts, and it involves three topics: (1) time series generation using GAN, (2) differential privacy in GAN, (3) distributed GAN framework and (4) federated learning GAN framework. For each part of this project, we specifically select one scientific paper and its code. We expect the students can follow the paper and the code, and reproduce the results.
+
+
+
+### Testbed and baseline
+The [Time-GAN](https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/alg/timegan/) and [DoppelGANger](https://github.com/fjxmlzn/DoppelGANger) are the codebases for time series generation for [10,12]. [GS-WGAN](https://github.com/DingfanChen/GS-WGAN) is the codebase for implementing differential privacy in GAN [7]. [MD-GAN](https://github.com/LPD-EPFL/FeGAN) is the codebase for our selected distributed gan framework[9]. [FeGAN](https://github.com/LPD-EPFL/FeGAN) is the code for one type of federated learning GAN framework.
+
+
+### Prerequisite
+This project is mainly focusing on generative adversarial networks. And the available code are mainly implemented on Python. It needs the student to have experiences to use Python, especially the knowledges of Pytorch library. We will provide a crash course training and materials on generative adversarial networks.
+
+
+## 1 Time-series Generative Adversarial Networks (TimeGAN) [12]
+
+- Research Question: The objective is to utilize the TimeGAN[12] algorithm to produce real time-series data. Students must evaluate the TimeGAN algorithm and reproduce table 2 in the paper. It is important for students to make comparison only with alternative GAN approaches such as RCGAN, C-RNN-GAN and WaveGAN.
+
+- Method: Students must go through the paper and understand the challenges of modeling time series data via GANs. Students must reproduce table 2 of the paper and compare TimeGAN only with other GAN based approaches such as RCGAN, C-RNN-GAN and WaveGAN. In-case one does not have enough background knowledge about GANs, a basic study on GAN is fundamental.
+- Outcome: A data pipeline that can take real time-series data as input and produce the corresponding realistic generated time series.
+- Related work: The paper is linked [here](https://papers.nips.cc/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.pdf), and [code](https://github.com/jsyoon0823/TimeGAN) is provided here.
+- Timeline: 2 weeks to learn the basics of GAN, 1 week to learn time series, 5 weeks to study the code and reproduce the results in the paper. 2 weeks to analyze the results and write a report.
+
+## 2 Time-series Generative Adversarial Networks (DoppelGANger) [10]
+
+- Research Question: The objective is similar to Research question 1, but in this part, we will use a different algorithm known as DoppelGANger[10] to produce real time-series data. This algorithm is more general as it is also equipped to utilize even the static data that is commonly found along-side time-series data to boost the quality of the generated time-series data. The students must compare the performance of the DoppelGANger method with other machine learning models such as autoregressive models, Markov models, and recurrent neural networks (RNNs). Hence, the table 3 of the paper[10] must be reproduced but with only the above mentioned algorithms being considered.
+
+- Method: Students are encouraged to read the paper to get a grasp of the state of the art techniques used to generate realistic time-series data conditioned on static meta-data. Naturally, if a student does not have background knowledge on GANs, a basic study on the topic is also needed.
+
+- Outcome: A data pipeline that can take real time series data as input and produce the corresponding realistic generated time series along with a reproduction of table 3 in the paper[10]
+
+- Related work: The paper can be found [here](https://arxiv.org/abs/1909.13403), and [code](https://github.com/fjxmlzn/DoppelGANger) is linked as well.
+- Timeline: 2 weeks to learn the basics of GAN, 1 week to learn time series, 5 weeks to study the code and reproduce the results in the paper. 2 weeks to analyze the results and write a report.
+
+## 3 A Gradient-Sanitized Approach for Learning Differentially Private Generators (GS-WGAN) [7]
+
+- Research Question: The goal is to train a differentially private GAN.  This allows releasing a sanitized form of sensitive data with rigorous privacy guarantees. Students must attempt to reproduce the table 1 from the paper and are only required to make the comparison with the DP-SGD GAN model. Lastly, the developed algorithm must also be applied to see if it works well with time-series data.
+
+- Method: Use the GS-WGAN framework provided in [7].
+- Outcome: Understand the paper[7] and reproduce the results of table 1 by comparing against the DP-SGD GAN model only.
+- Related work: The paper's is [here](https://arxiv.org/abs/2006.08265), the codebase is provided in this [git](https://github.com/DingfanChen/GS-WGAN).
+- Timeline: 1 week to learn the concept of differential privacy, 2 weeks to learn about the GAN framework, 4 weeks to reproduce the results, 1 week to apply on time series data, 2 weeks to analyze the results and write a report.
+
+## 4 Distributed Generative Adversarial Networks for Distributed Datasets (MD-GAN) [9]
+- Research Question: As a specific feature of GANs, the training of the generator does not require access to the real data which is privacy-sensitive. Therefore, a distributed GAN can be developed to give a higher privacy-preserving level wherein the discriminator and generator are trained on separate machines such that only the discriminator is given access to the real data. In this way, the real data which is sensitive doesn't leave the premise of the user. Hence, for this part, we challenge students to build such a distributed GAN framework where the generator and discriminator are trained on separate machines and must communicate across a shared network. Finally, the implementation must be utilized for generating time series data.
+- Method: The current solution proposed is MD-GAN[9]. However, it makes use of multiple discriminators. Our requirement for this part is to simply use one generator and one discriminator, with the MD-GAN solution as a base reference.
+- Outcome: A distributed GAN framework
+- Related work: MD-GAN [paper](https://arxiv.org/abs/1811.03850) and [code](https://github.com/LPD-EPFL/FeGAN) are all provided. Interested students can also look up-Generative Models for Effective ML on Private, Decentralized Datasets ( https://arxiv.org/abs/1911.06679) and FeGAN: Scaling Distributed GANs (https://hal.archives-ouvertes.fr/hal-03118260/document) for expanding their ideas.
+- Timeline: 2 weeks to understand the structure of GAN, 5 weeks to develop distributed GAN framework, 1 week to test on time series data, 2 weeks to analyze the results and write a report.
+
+
+## 5 Federated Learning Generative Adversarial Netowkrs (FeGAN)
+- Research Question: For the scenario where each client has part of training data and together with other clients' data, they can build a stronger model, federated learning is proposed. In this way, the real data which is sensitive doesn't leave the premise of the client, and there exists a server which is used to aggregate all clients' local model to one. For this part, we challenge students to build a federated learning GAN framework, where the generator and discriminator of GAN are all trained on clients, and the server aggregates the models from all clients to one GAN model. Finally, the implementation must be utilized for generating time series data.
+- Method: The current solution proposed is FeGAN[15]. FeGAN has more functionalities than the vanilla federated learning framework. Our requirement is to train GAN in federated learning style with one server, two clients. Training data are all in the clients.
+- Outcome: A federated learning GAN framework
+- Related work: FeGAN [paper](https://hal.archives-ouvertes.fr/hal-03118260/document) and [code](https://github.com/LPD-EPFL/FeGAN) are all provided.
+- Timeline: 2 weeks to understand the structure of GAN, 5 weeks to develop distributed GAN framework, 1 week to test on time series data, 2 weeks to analyze the results and write a report.
+
+## Relation Between Research Questions
+
+Successfully answering each of these research questions can lead to the ultimate objective: The first two parts focus on improving the utility for ML applications and statistical similarity of synthetic time series data. While the third part focuses on enhancing privacy guarantees for the synthetic data. And finally, the fourth part focuses on improving the training framework of GANs to provide stricter privacy by design.
+
+
 ## References
 
 [1] Issa Annamoradnejad. ColBERT: Using BERT Sentence Embedding for Humor Detection.arXiv
@@ -202,3 +291,23 @@ dation / IEEE, 2019.
 He. Attngan: Fine-grained text to image generation with attentional generative adversarial net-
 works. In2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt
 Lake City, UT, USA, June 18-22, 2018, pages 1316–1324. IEEE Computer Society, 2018.
+
+[7] Dingfan Chen, Tribhuvanesh Orekondy and M. Fritz. GS-WGAN: A Gradient-Sanitized Approach for Learning Differentially Private Generators. 2020.
+
+[8] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. Generative adversarial nets. In Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2, 2014.
+
+[9] Corentin Hardy, Erwan Le Merrer and Bruno Sericola. MD-GAN: Multi-Discriminator Generative Adversarial Networks for Distributed Datasets
+
+[10] Zinan Lin, Alankar Jain, Chen Wang, Giulia Fanti, and Vyas Sekar. Using GANs for Sharing Networked Time Series Data: Challenges, Initial Promise, and Open Questions. In Proceedings of the ACM Internet Measurement Conference (IMC '20). Association for Computing Machinery, New York, NY, USA, 2020.
+
+[11] Karen Walker Synthetic data: Unlocking the power of data and skills for machine learning https://dataingovernment.blog.gov.uk/2020/08/20/synthetic-data-unlocking-the-power-of-data-and-skills-for-machine-learning/
+
+[12] Jinsung Yoon, Daniel Jarrett  and M. V. D. Schaar. Time-series Generative Adversarial Networks. NeurIPS, 2019.
+
+[13] The Economist. The world’s most valuable resource is no longer oil, but
+data. https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuableresource-is-no-longer-oil-but-data, 2017.
+
+[14] A. Narayanan and V. Shmatikov. Robust de-anonymization of large sparse
+datasets. In IEEE Symposium on Security and Privacy, pages 111–125, 2008.
+
+[15] Rachid Guerraoui, Arsany Guirguis, Anne-Marie Kermarrec, and Erwan Le Merrer. 2020. FeGAN: Scaling Distributed GANs. In Proceedings of the 21st International Middleware Conference. Association for Computing Machinery, New York, NY, USA, 2020.
