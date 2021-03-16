@@ -141,7 +141,7 @@ Rania Talbi|INSA-Lyon|Attacks on federated learning systems
 
 **Name**|**Master/Intern**|**Thesis/Project**
 :-----|:-----|:-----
-Aditiya Kuner|Master 21|GAN-based synthetic tabular data generator
+Aditiya Kunar|Master 21|GAN-based synthetic tabular data generator
 Zhiyue Zhang|Master 21| Disparity seeding for maximizing information spread on social networks
 Bart Cox|Master 20|Efficient multiple DNNs inference on edge devices
 Shikhar Deve|Master 20| Multi-fidelity hyper-parameter tuning for machine learning algorithms
