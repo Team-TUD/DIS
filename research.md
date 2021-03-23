@@ -9,8 +9,9 @@ title: Research
 Our research themes span in the following areas. 
 
 - [Robust, private, fair learning](#RPFlearning)
+- [Edge federated learning and inference](#eLInf)
 - [Resourcement managment for deep neural networks clusters](#resource)
-- [Edge learning and inference](#eLInf)
+
 
 # Robust, Private, Fair Learning<a name="RPFlearning"></a> 
 
@@ -29,6 +30,23 @@ In this line of research, we are designing robust, privacy-preserving and fair l
  </a>
 </figure>
 
+# Edge federated learning and Inference<a name="eLInf"></a> 
+Data is constantly generated and collected by edge devices (of the network) to power up today’s AI and ML analyses. With the advancement of algorithmic compression techniques and hardware technology, the ability to train neural networks and run inference on edge devices has gone from myth to reality. Federated learning (FL) is an emerging learning paradigm where distributed edge nodes collaboratively learn the weights of neural networks iteratively without directly sharing data. It is largely unexplored how existing deep learning algorithms can be realized within a FL framework, thereby overcoming network communications and adversarial threats. Moreover, owing to the vast number of available trained models and highly heterogeneous mobile devices, it is no mean feat to identify and deploy the right model for individual edge devices.
+
+In this line of research, we are designing learning algorithms and prototyping system solutions for ML training and inference on distributed edge devices. Topics include:
+- [Federated Learning Systems](#Federated): designing efficient communication protocols and incentive mechanisms for edge learners.
+- [Deep Model Inferences on Edge Devices](#EdgeInf): designing and prototyping an inference engine that can search for optimal models and configurations for edge devices at scale.
+-	Secure edge learning and inference: developing prototypes to leverage trusted execution environments and differential privacy for securing edge devices from adversaries. 
+
+<figure>
+ <a href="#top">
+  <img src="../images/up.png" alt="top" style="float: right;" width="30" height="22">
+ </a>
+</figure>
+
+
+
+
 
 # System and Data Management for Deep Clusters<a name="resource"></a> 
 There is a surging number of deep training/inference jobs, e.g., convolutionary networks to classify images, and the Bert language model to classify text running on cloud datacenters. Such learning jobs form a unique class of workloads that have a large number of tuning parameters and repetitive computation routines in iterations, and they rely on the acceleration of specialized computing units such as GPU. The resulting computational time and energy computation can be daunting. This raises questions about how to design resource management policies for such clusters such that running deep network training/inference jobs is truly accessible, sustainable, and affordable for the public. 
@@ -44,22 +62,6 @@ In this line of research, we are seeking novel resource management solutions for
   <img src="../images/up.png" alt="top" style="float: right;" width="30" height="22">
  </a>
 </figure>
-
-# Edge learning and Inference<a name="eLInf"></a> 
-Data is constantly generated and collected by edge devices (of the network) to power up today’s AI and ML analyses. With the advancement of algorithmic compression techniques and hardware technology, the ability to train neural networks and run inference on edge devices has gone from myth to reality. Federated learning (FL) is an emerging learning paradigm where distributed edge nodes collaboratively learn the weights of neural networks iteratively without directly sharing data. It is largely unexplored how existing deep learning algorithms can be realized within a FL framework, thereby overcoming network communications and adversarial threats. Moreover, owing to the vast number of available trained models and highly heterogeneous mobile devices, it is no mean feat to identify and deploy the right model for individual edge devices.
-
-In this line of research, we are designing learning algorithms and prototyping system solutions for ML training and inference on distributed edge devices. Topics include:
-- [Federated Learning Systems](#Federated): designing efficient communication protocols and incentive mechanisms for edge learners.
-- [Deep Model Inferences on Edge Devices](#EdgeInf): designing and prototyping an inference engine that can search for optimal models and configurations for edge devices at scale.
--	Secure edge learning and inference: developing prototypes to leverage trusted execution environments and differential privacy for securing edge devices from adversaries. 
-
-<figure>
- <a href="#top">
-  <img src="../images/up.png" alt="top" style="float: right;" width="30" height="22">
- </a>
-</figure>
-
-
 
 
 
