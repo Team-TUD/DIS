@@ -141,6 +141,8 @@ Rania Talbi|INSA-Lyon|Attacks on federated learning systems
 
 **Name**|**Master/Intern**|**Thesis/Project**
 :-----|:-----|:-----
+Erwin van Thiel|Master 22|Adversarial example for Multi-label problems
+Izaak Cornelis|Master 22|Federated learrning on non-iID data
 Aditya Kunar|Master 21|GAN-based synthetic tabular data generator
 Zhiyue Zhang|Master 21| Disparity seeding for maximizing information spread on social networks
 Bart Cox|Master 20|Efficient multiple DNNs inference on edge devices
