@@ -159,17 +159,23 @@ Hans Brouwer|Intern 20| Pipetuning hyper- and system parameters for DNN clusters
 :-----|:-----|:-----
 Ben Provan-Bessell|2021| Text-to-Comic Generative Adversarial Network
 Maciej Styczeń|2021| Automated Text-Image Comic Dataset Construction
-Cosmin Pene|2021| Multi-Label Gold Asymmetric Loss Correction with Single-Label Regulators
 Bartlomiej Kotlicki|2021| HaarCNN: Detection and Recognition of Comic Strip Characters with Deep
 Darwin Morris|2021| Synthesizing Comics via Conditional Generative Adversarial Networks
+Krzysztof Garbowicz|2021| DilBERT^2: Humor Detection and Sentiment Analysis of Comic Texts Using Fune-Tuned BERT Models
+Cosmin Pene|2021| Multi-Label Gold Asymmetric Loss Correction with Single-Label Regulators
+Mark Basting|2021|Multi-AL: Robust Active learning for Multi-label Classifier
+Johnathan Rozen|2021|Robust Multi-label Active Learning for Missing Labels
 Jan-Mark Dannenberg|2021| Time Series Synthesis using Generative Adversarial Networks
 Pepijn te Marvelde |2021| Differentially Private GAN for Time Series
-Krzysztof Garbowicz|2021| DilBERT^2: Humor Detection and Sentiment Analysis of Comic Texts Using Fune-Tuned BERT Models
-Mark Basting|2021|Multi-AL: Robust Active learning for Multi-label Classifier
+Marcus Plesner|2021|FeTGAN: Federated Time-Series Generative Adversarial Network
+Auke Schaap|2021|Time Series Synthesis Using GANs - A take on DoppelGANger
 Jeroen Galjaard|2020| Mema: Fast Inference of Multiple Deep Models
 Hans Brouwer|2020| Modeling Inference Time of Deep Neural Networks on Memory-constrained Systems
 Wouter van Lil|2020| Analysis of the effect of caching convolutional network layers on resource constraint devices
 Simon Tulling|2020|Offline Compression of Convolutional Neural Networks on Edge Devices
 Khalid El Haji,  Noah Posner, Haka  Ilbaş, Sergen Karpuz, Victor Wernet |2020|Synthetic Waste Generator for Classification Training
+Simon Barendse, Jorick Spitzen|2019| Job containerization and orchestration to reduce TTC and operational costs
+
+
 
 
