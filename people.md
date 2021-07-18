@@ -173,9 +173,9 @@ Jeroen Galjaard|2020| Mema: Fast Inference of Multiple Deep Models
 Hans Brouwer|2020| Modeling Inference Time of Deep Neural Networks on Memory-constrained Systems
 Wouter van Lil|2020| Analysis of the effect of caching convolutional network layers on resource constraint devices
 Simon Tulling|2020|Offline Compression of Convolutional Neural Networks on Edge Devices
-Khalid El Haji,  Noah Posner, Haka  Ilbaş, Sergen Karpuz, Victor Wernet |2020|Synthetic Waste Generator for Classification Training
-Dennis Böhm, Dylan Franken, Govert de Gans, Bas Musters, Bram van Kooten |2020|TAM 2.0
-Simon Barendse, Jorick Spitzen|2019| Job containerization and orchestration to reduce TTC and operational costs
+Khalid El Haji,  Noah Posner, Haka  Ilbaş, Sergen Karpuz, and Victor Wernet |2020|Synthetic Waste Generator for Classification Training
+Dennis Böhm, Dylan Franken, Govert de Gans, Bas Musters, and  Bram van Kooten |2020|TAM 2.0
+Simon Barendsem, and Jorick Spitzen|2019| Job containerization and orchestration to reduce TTC and operational costs
 
 
 
