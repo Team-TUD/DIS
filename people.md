@@ -133,7 +133,7 @@ Nathaniel Morris|Ohio State University| Computational sprinting
 Rania Talbi|INSA-Lyon|Attacks on federated learning systems
 
 <br>
-## Master and Intern Students
+## Master Thesis Students and Interns
 
 
 
@@ -153,7 +153,7 @@ Jeroen Galjaard|Intern 20| Scheduling algorithms for multiple DNNs inference on 
 Hans Brouwer|Intern 20| Pipetuning hyper- and system parameters for DNN clusters
 
 <br>
-## Bachelor Students
+## Bachelor Thesis Students
 
 **Name**|**Year**|**Thesis**
 :-----|:-----|:-----
