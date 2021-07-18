@@ -141,12 +141,30 @@ Rania Talbi|INSA-Lyon|Attacks on federated learning systems
 
 **Name**|**Master/Intern**|**Thesis/Project**
 :-----|:-----|:-----
-Erwin van Thiel|Master 21|Adversarial example for Multi-label problems
-Izaak Cornelis|Master 21|Federated learrning on non-iID data
-Aditya Kunar|Master 21|GAN-based synthetic tabular data generator
+Robert Konig|Master 21| De-biasing multi-label problems
+Erwin van Thiel|Master 21| Adversarial example for multi-label problems
+Izaak Cornelis|Master 21| Federated learrning on non-IID data
+Aditya Kunar|Master 21| GAN-based synthetic tabular data generator
 Zhiyue Zhang|Master 21| Disparity seeding for maximizing information spread on social networks
-Bart Cox|Master 20|Efficient multiple DNNs inference on edge devices
+Bart Cox|Master 20| Efficient multiple DNNs inference on edge devices
 Shikhar Deve|Master 20| Multi-fidelity hyper-parameter tuning for machine learning algorithms
-Victor Wernet| Intern 20| Distributed generative adversarial neuralnetworks
-Jeroen Galjaard| Intern 20| Scheduling algorithms for multiple DNNs inference on edges
-Hans Brower| Intern 20| Pipetuning hyper- and system parameters for DNN clusters
+Victor Wernet|Intern 20| Distributed generative adversarial networks
+Jeroen Galjaard|Intern 20| Scheduling algorithms for multiple DNNs inference on edges
+Hans Brouwer|Intern 20| Pipetuning hyper- and system parameters for DNN clusters
+
+<br>
+## Bachelor Students
+
+**Name**|**Year**|**Thesis**
+:-----|:-----|:-----
+Ben Provan-Bessell|2021| Text-to-Comic Generative Adversarial Network
+Maciej Styczeń|2021| Automated Text-Image Comic Dataset Construction
+Cosmin Pene|2021| Multi-Label Gold Asymmetric Loss Correction with Single-Label Regulators
+Bartlomiej Kotlicki|2021| HaarCNN: Detection and Recognition of Comic Strip Characters with Deep
+Darwin Morris|2021| Synthesizing Comics via Conditional Generative Adversarial Networks
+Jan-Mark Dannenberg|2021| Time Series Synthesis using Generative Adversarial Networks
+Pepijn te Marvelde |2021| Differentially Private GAN for Time Series
+Krzysztof Garbowicz|2021| DilBERT^2: Humor Detection and Sentiment Analysis of Comic Texts Using Fune-Tuned BERT Models
+MarkBasting|2021|Multi-AL: Robust Active learning for Multi-label Classifier
+Jeroen Galjaard|2020| Mema: Fast Inference of Multiple Deep Models
+Hans Brouwer|2020| Modeling Inference Time of Deep Neural Networks on Memory-constrained Systems
