@@ -165,6 +165,11 @@ Darwin Morris|2021| Synthesizing Comics via Conditional Generative Adversarial N
 Jan-Mark Dannenberg|2021| Time Series Synthesis using Generative Adversarial Networks
 Pepijn te Marvelde |2021| Differentially Private GAN for Time Series
 Krzysztof Garbowicz|2021| DilBERT^2: Humor Detection and Sentiment Analysis of Comic Texts Using Fune-Tuned BERT Models
-MarkBasting|2021|Multi-AL: Robust Active learning for Multi-label Classifier
+Mark Basting|2021|Multi-AL: Robust Active learning for Multi-label Classifier
 Jeroen Galjaard|2020| Mema: Fast Inference of Multiple Deep Models
 Hans Brouwer|2020| Modeling Inference Time of Deep Neural Networks on Memory-constrained Systems
+Wouter van Lil|2020| Analysis of the effect of caching convolutional network layers on resource constraint devices
+Simon Tulling|2020|Offline Compression of Convolutional Neural Networks on Edge Devices
+Khalid El Haji,  Noah Posner, Haka  Ilbaş, Sergen Karpuz, Victor Wernet |2020|Synthetic Waste Generator for Classification Training
+
+
